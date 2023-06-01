@@ -47,7 +47,7 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800  md:text-xl max-w-lg mx-auto dark:text-white'>Highly skilled and motivated Software Developer
               with a passion for crafting efficient and scalable solutions.
               Experienced in full-stack web development and proficient in
-              multiple programming languages, including JavaScript, php, Laravel, React.
+              multiple programming languages, including JavaScript, php, Laravel, React
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-500'>
