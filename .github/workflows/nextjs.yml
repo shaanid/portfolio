@@ -82,6 +82,9 @@ jobs:
         with:
           name: github-pages
           path: ./out
+      - name: Check build output
+        run: ls -R ./out
+
 
 
   # Deployment job
