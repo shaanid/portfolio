@@ -78,7 +78,7 @@ jobs:
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4  # Use latest version
+        uses: actions/upload-pages-artifact@v3  # Use latest version
         with:
           name: github-pages  # Explicitly set artifact name
           path: ./out
